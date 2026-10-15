@@ -1,0 +1,16 @@
+Environment: Windows 11, Java 23.0.1
+File: 500MB.bin (500 MB)  mode: traditional (client + server)  runs: 3
+Server SHA-256: f0eae8a6e061b24cbb5eaa67e33512f94a86ba7677cad148a24d72d7bf513ba0
+Warm-up (not counted)...
+run  mode         workers  time(s)  MB/s     check
+1    traditional  1        0.41     1227.1   size+hash OK
+1    traditional  10       0.41     1212.4   size+hash OK
+2    traditional  1        0.67     749.9    size+hash OK
+2    traditional  10       0.38     1313.5   size+hash OK
+3    traditional  1        0.63     796.8    size+hash OK
+3    traditional  10       0.40     1240.1   size+hash OK
+
+Average of 3 runs
+mode         workers  time(s)  MB/s
+traditional  1        0.57     881.5
+traditional  10       0.40     1253.9

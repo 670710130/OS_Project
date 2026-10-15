@@ -1,0 +1,5 @@
+# ไม่ต้องการอัปโหลดโฟลเดอร์ downloads และ files
+downloads/
+files/
+**/downloads/
+**/files/

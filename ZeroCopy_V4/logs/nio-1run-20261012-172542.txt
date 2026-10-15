@@ -1,0 +1,7 @@
+Environment: Windows 11, Java 23.0.1
+File: bigfile.bin (1000 MB)  mode: nio (client + server)  runs: 1
+Server SHA-256: 7546b0d685376eb1f633bedc46a933ca734ebf1fccc2ee0a2751f7b0527f4f7f
+Warm-up (not counted)...
+run  mode         workers  time(s)  MB/s     check
+1    nio          1        2.38     419.7    size+hash OK
+1    nio          10       1.60     624.0    size+hash OK
